@@ -1,0 +1,43 @@
+// Code to create a data object for every Blook in Blooket
+
+const blooks = [
+  { name: "Chick", rarity: "Common", set: "Farm Animals" },
+  { name: "Chicken", rarity: "Common", set: "Farm Animals" },
+  { name: "Cow", rarity: "Common", set: "Farm Animals" },
+  { name: "Goat", rarity: "Common", set: "Farm Animals" },
+  { name: "Horse", rarity: "Common", set: "Farm Animals" },
+  { name: "Pig", rarity: "Common", set: "Farm Animals" },
+  { name: "Sheep", rarity: "Common", set: "Farm Animals" },
+  { name: "Duck", rarity: "Uncommon", set: "Farm Animals" },
+  { name: "Turkey", rarity: "Uncommon", set: "Farm Animals" },
+  { name: "Cat", rarity: "Common", set: "Pets" },
+  { name: "Dog", rarity: "Common", set: "Pets" },
+  { name: "Rabbit", rarity: "Common", set: "Pets" },
+  { name: "Goldfish", rarity: "Common", set: "Pets" },
+  { name: "Hamster", rarity: "Uncommon", set: "Pets" },
+  { name: "Parrot", rarity: "Uncommon", set: "Pets" },
+  { name: "Turtle", rarity: "Rare", set: "Pets" },
+  { name: "Unicorn", rarity: "Legendary", set: "Pets" },
+  { name: "Dragon", rarity: "Mythical", set: "Fantasy" },
+  { name: "Fairy", rarity: "Legendary", set: "Fantasy" },
+  { name: "Elf", rarity: "Rare", set: "Fantasy" },
+  { name: "Wizard", rarity: "Epic", set: "Fantasy" },
+  { name: "Goblin", rarity: "Uncommon", set: "Fantasy" },
+  { name: "Ogre", rarity: "Common", set: "Fantasy" },
+  { name: "Slime Monster", rarity: "Rare", set: "Monsters" },
+  { name: "Ghost", rarity: "Epic", set: "Monsters" },
+  { name: "Zombie", rarity: "Common", set: "Monsters" },
+  { name: "Vampire", rarity: "Rare", set: "Monsters" },
+  { name: "Werewolf", rarity: "Legendary", set: "Monsters" },
+  { name: "Frankenstein", rarity: "Uncommon", set: "Monsters" }
+];
+
+// Function to display all blooks in the console
+function displayBlooks() {
+  blooks.forEach((blook, index) => {
+    console.log(`${index + 1}. Name: ${blook.name}, Rarity: ${blook.rarity}, Set: ${blook.set}`);
+  });
+}
+
+// Call the function to display the blooks
+displayBlooks();
